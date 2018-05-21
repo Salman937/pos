@@ -1,0 +1,90 @@
+/* Custom style sheet for all pages */
+
+
+/*Tiles*/
+.widget
+{
+  min-height: 10em !important;
+}
+.counter
+{
+  padding-left: 2.5em;
+}
+.tiles-footer
+{
+  height: 2em;
+  background:rgba(0, 0, 0, 0.1) !important;
+  padding-top: 5px;
+  margin-top: 2em;
+  border-radius: 5px;
+}
+.yellow-bg
+{
+  background-color: #e6e600 !important;
+  border: none;
+}
+.orange-bg
+{
+  background-color: #ff9933;
+  color: white;
+  border: none;
+}
+.blue-bg
+{
+  background-color: #4da6ff;
+  color: white;
+}
+
+/*Login Page*/
+
+.login-box
+{
+  width: 800px;
+  height: 300px;
+  border: 1px solid #00ffbf;
+  margin:10em 0px 0px 10em;
+}
+
+.login-header
+{
+  border-bottom: 1px solid #00ffbf;
+  width: 90%;
+  height: 3em;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+.bg-img
+{
+  background-image: url('../img/back.png');
+  background-size:100% 175%;
+}
+.control-label
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+.btn-login
+{
+  width: 25% !important;
+  border-radius: 0px;
+  background-color: #00ffbf;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+.login-box .form-control
+{
+  border-radius: 0px;
+  background:rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  /*background-color: none !important;*/
+}
+
+
+
+
+
+
+
