@@ -655,9 +655,6 @@ class Jobs extends CI_Controller
 							'time'           => date('Y-m-d H:i:s'), 
 			 			);
 
-
-
-
 			$result = $this->common_model->InsertData('jobs',$data);
 
 	        $insert_id = $this->db->insert_id();	
@@ -676,7 +673,7 @@ class Jobs extends CI_Controller
 	        
 			if ($result) 
 			{
-				$msg = "Location Added";
+				$msg = "Location Added to Job";
 				$this->session->set_flashdata('success',$msg);
 				redirect('Jobs/multiple_locations','refresh');
 			}

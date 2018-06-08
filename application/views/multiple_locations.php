@@ -60,7 +60,13 @@
             <input type="hidden" name="check_status" id="check_status" value="" />
             <br>
           <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg">Add</button> 
+            <button type="submit" class="btn btn-primary btn-lg"><i class="fa fa-plus-circle"></i> Add</button> 
+            <a href="<?php echo base_url() ?>/dashboard">
+              <button type="button" class="btn btn-primary btn-lg col-sm-offset-8">
+                <i class="fa fa-check-circle"></i> Done
+              </button> 
+            </a>  
+
           </div>
            
       </div>
